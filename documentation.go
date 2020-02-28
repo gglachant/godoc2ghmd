@@ -13,17 +13,17 @@
 //
 // While the output of godoc2ghmd can simply be piped into a file, e.g.:
 //
-//    $ godoc2ghmd github.com/GandalfUK/godoc2ghmd > README.md
+//    $ godoc2ghmd github.com/gglachant/godoc2ghmd > README.md
 //
 // it can also be used with the -file option:
 //
-//    $ godoc2ghmd -file=README.md github.com/GandalfUK/godoc2ghmd
+//    $ godoc2ghmd -file=README.md github.com/gglachant/godoc2ghmd
 //
 // This invocation is particularly useful when using `go generate` to automate
 // the creation of package documentation before sumbmitting code. For
 // example, this directive:
 //
-//go:generate godoc2ghmd -file=README.md github.com/GandalfUK/godoc2ghmd
+//go:generate godoc2ghmd -file=README.md github.com/gglachant/godoc2ghmd
 //
 // in the  `documentation.go` file within this repositoy created this very
 // `README.md` file by running:
